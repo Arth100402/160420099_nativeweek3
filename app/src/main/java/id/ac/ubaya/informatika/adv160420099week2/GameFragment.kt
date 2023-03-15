@@ -33,6 +33,7 @@ class GameFragment : Fragment() {
         val answer = view.findViewById<TextView>(R.id.txtAnswer)
         var counter = 0
 
+
         val btnSubmit = view.findViewById<Button>(R.id.btnSubmit)
         btnSubmit.setOnClickListener {
             if (jumlah.toString() == answer.text.toString()){
